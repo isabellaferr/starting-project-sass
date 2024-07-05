@@ -1,0 +1,15 @@
+@import "header-default";
+
+@media only screen and (min-width:map-gate ($break-points, sm)) {
+@import "header-sm-up";
+}
+   
+@media only screen and (min-width:map-gate ($break-points, md)) {
+    @import "header-md-up";
+    }
+    
+    @media only screen and (min-width:map-gate ($break-points, sm)) {
+        @import "header-sm-down";
+        }
+      
+     

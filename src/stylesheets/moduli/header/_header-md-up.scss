@@ -1,0 +1,13 @@
+@media only screen and (min-width: map-gate ($break-points, md)) {
+    header nav li a {
+      transition: background 0.3s;
+    }
+    header nav li a:hover {
+      background:$secondary-color;
+      border-radius: 3px;
+    }
+    header nav li a:focus {
+      background: $primary-color;
+      border-radius: 3px;
+    }
+  }
